@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "12345",
+    "database": "petmart_dev",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "12345",
+    "database": "pet_test",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "12345",
+    "database": "mypet_production",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
