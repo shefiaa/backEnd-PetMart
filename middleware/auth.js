@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken');
 const dotenv = require('dotenv');
-const { User } = require('../models'); // Sesuaikan dengan model Anda
+const { User } = require('../models');
 
 dotenv.config(); // Memuat variabel lingkungan dari berkas .env
 const secretKey = process.env.JWT_SECRET_KEY;
